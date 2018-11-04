@@ -102,7 +102,7 @@ section {
 }
 
 .product-item,
-.price-wrap{
+.price-wrap {
     width: 20%;
     height: auto;
     padding: 40px 20px;
@@ -115,6 +115,10 @@ section {
     /*padding: 20px;*/
     line-height: 2em;
     color: #5e6f83;
+}
+
+.head-wrap .paragraph {
+    color: white;
 }
 
 .product-item p span,
@@ -155,7 +159,7 @@ section {
     padding: 30px;
 }
 
-.price-all-wrap{
+.price-all-wrap {
     justify-content: center;
 }
 
@@ -166,7 +170,7 @@ section {
 }
 
 .price-wrap p,
-.price-item i{
+.price-item i {
     background: linear-gradient(to left, #2b5c96, #40c6a7);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -210,6 +214,7 @@ section {
     position: relative;
     padding: 20px;
 }
+
 .copyright::before {
     content: no-close-quote;
     position: absolute;
